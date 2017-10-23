@@ -1,0 +1,21 @@
+{
+    "name": "luklewluk/shopware-composer-bridge",
+    "description": "Create ShopWare project by composer",
+    "type": "shopware-bridge",
+    "require": {
+        "shopware/shopware": "~5.0",
+        "mnsami/composer-custom-directory-installer": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukasz Lewandowski",
+            "email": "luklewluk@gmail.com"
+        }
+    ],
+    "extra":{
+        "installer-paths":{
+            "./bin/": ["shopware/shopware/bin"]
+        }
+    }
+}
