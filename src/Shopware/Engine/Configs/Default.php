@@ -103,9 +103,9 @@ return array_replace_recursive([
     ],
     'plugin_directories' => [
         'Default' => $this->AppPath('Plugins_Default'),
-        'Local' => $this->AppPath('Plugins_Local'),
-        'Community' => $this->AppPath('Plugins_Community'),
-        'ShopwarePlugins' => $this->DocPath('custom_plugins'),
+        'Local' => ROOT_PATH . '/engine/Shopware/Plugins/Local/',
+        'Community' => ROOT_PATH . '/engine/Shopware/Plugins/Community/',
+        'ShopwarePlugins' => ROOT_PATH . '/custom/plugins/',
     ],
     'template' => [
         'compileCheck' => true,
