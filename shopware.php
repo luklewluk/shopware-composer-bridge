@@ -93,8 +93,6 @@ use luklewluk\ShopwareComposerBridge\Shopware\Engine\Kernel;
 use Shopware\Components\HttpCache\AppCache;
 use Symfony\Component\HttpFoundation\Request;
 
-define('ROOT_PATH', __DIR__);
-
 $environment = getenv('SHOPWARE_ENV') ?: getenv('REDIRECT_SHOPWARE_ENV') ?: 'production';
 
 $kernel = new Kernel($environment, $environment !== 'production');
